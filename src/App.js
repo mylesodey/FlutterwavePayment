@@ -5,7 +5,7 @@ import paystack from "./images/paystack-2.svg"
 
 function App() {
   const config = {
-    public_key: 'FLWPUBK_TEST-089a59f302d6f9f5e4343293ad927f3e-X',
+    public_key: 'Your PUBLIC KEY',
     tx_ref: Date.now(),
     amount: 100,
     currency: 'NGN',
